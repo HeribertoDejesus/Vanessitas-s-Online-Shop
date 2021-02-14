@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+width: 100%;
+/* height: 10.0rem; */
+/* border: 2px solid blue; */
+margin: 0 auto;
+
+}
+
+header .main-container-pic {
+  display: flex;
+  justify-content: center;
+  /* margin: 0 auto; */
+  /* min-width: 360px; */
+}
+header figure img {
+  width: 10.0rem;
+  height: 10.0rem;
+  margin: 0 auto;
+}
+header .main-container-nav {
+  /* width: 40.0rem; */
+  /* height: 8.0rem; */
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: flex-end;
+}
+header .main-container-nav ul {
+  font-size: 2.0rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+header nav .menu__item {
+  margin: 0 auto;
+}
+
+
+
+main .main-title {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2.0rem;
+}
+main .main-product {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 4.0rem;
+}
+main section .content__item {
+  display: flex;
+  /* width: 4.0rem;
+  height: 4.0rem; */
+
+}
+.ci1 {
+  width: 50%;
+  height: 8.0rem;
+  order: 1;
+  background-color: red;
+}
+.ci2 {
+  width: 50%;
+  height: 8.0rem;
+  order: 2;
+  background-color: rgb(102, 255, 0);
+}
+.ci3 {
+  width: 33%;
+  order: 3;
+  height: 8.0rem;
+  background-color: rgb(0, 217, 255);
+}
+.ci4 {
+  width: 33%;
+  order: 4;
+  height: auto;
+  background-color: rgb(255, 0, 0);
+}
+.ci5 {
+  width: 33%;
+  order: 5;
+  height: auto;
+  background-color: rgb(208, 255, 0);
+}
+.ci6 {
+  width: 30%;
+  order: 6;
+  height: auto;
+  background-color: rgb(0, 247, 255);
+}
+.ci7 {
+  width: 30%;
+  order: 7;
+  height: auto;
+  background-color: rgb(4, 0, 255);
+}
+.ci8 {
+  width: 30%;
+  order: 8;
+  height: auto;
+  background-color: rgb(255, 0, 234);
+}
+.ci9 {
+  width: 100%;
+  order: 9;
+  height: auto;
+  background-color: rgb(255, 0, 0);
+}
