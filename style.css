@@ -13,12 +13,11 @@ header {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(223, 123, 123);
 }
 header .main-container-pic {
   display: flex;
-
-  background-color: rgb(0, 0, 0);
+  background-color: white;
 }
 header .main-container-pic img {
   width: 6.0rem;
@@ -34,12 +33,12 @@ header nav .main-container-menu li {
   margin-right: 1.0rem;
   font-size: 1.6rem;
   list-style: none;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 
 }
 header nav .main-container-menu li:hover {
-  background-color: rgb(243, 138, 156);
+  background-color: rgb(231, 54, 84);
   padding: 0.5rem;
   border-radius: 8px;
 }
@@ -152,9 +151,12 @@ footer {
 footer small {
   color: white;
   font-size: 1.4rem;
-margin: 1.0rem;
-cursor: pointer;
+  margin: 1.0rem;
+  cursor: pointer;
+  text-align: center;
 }
 footer small:hover {
   text-decoration: underline;
 }
+
+@media 
