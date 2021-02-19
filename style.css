@@ -17,10 +17,7 @@ header {
 }
 header .main-container-pic {
   display: flex;
-  /* justify-content: center; */
-  /* align-content: center; */
-  /* height: 12.0rem; */
-  /* margin-left: 1.0rem; */
+
   background-color: rgb(0, 0, 0);
 }
 header .main-container-pic img {
@@ -35,9 +32,16 @@ header nav .main-container-menu {
 }
 header nav .main-container-menu li {
   margin-right: 1.0rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   list-style: none;
   color: white;
+  cursor: pointer;
+
+}
+header nav .main-container-menu li:hover {
+  background-color: rgb(243, 138, 156);
+  padding: 0.5rem;
+  border-radius: 8px;
 }
 header .main-container-nav {
   display: flex;
@@ -71,9 +75,10 @@ main section h1 {
 main .h2-text {
   display: flex;
   justify-content: center;
-  margin-top: 1.0rem;
+  margin-top: 1.6rem;
   color:rgb(243, 138, 156);
-  font-size: 1.8rem;
+  font-size: 2.0rem;
+  margin-bottom: 1.4rem;
 }
 main .main-section-2 {
   /* display: flex; */
@@ -83,13 +88,73 @@ main section .content__item {
   width: 90%;
   margin: 0 auto;
   height: 20.0rem;
-  /* background-color: blue; */
   border: 2px solid rgb(243, 138, 156);
   border-radius: 8px;
   margin-bottom: 3.0rem;
-  /* text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3.0rem;
+}
+main  .ci1 {
+  background-image: url('./kette.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgb(243, 138, 156);
+  cursor: pointer;
+}
+main .ci1:hover{
+  background-color: rgb(223, 123, 123);
+}
+main  .ci2 {
+  background-image: url('./influencerin.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgb(243, 138, 156);
+  cursor: pointer;
+}
+main .ci2:hover{
+  background-color: rgb(223, 123, 123);
+}
+main  .ci3 {
+  background-image: url('./model.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgb(243, 138, 156);
+  cursor: pointer;
+}
+main .ci3:hover{
+  background-color: rgb(223, 123, 123);
+}
+main  .ci4 {
+  background-image: url('./gym.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgb(243, 138, 156);
+  cursor: pointer;
+}
+main .ci4:hover{
+  background-color: rgb(223, 123, 123);
+}
+
+footer {
+  width: 100%;
+  height: 5.0rem;
+  background-color: rgb(223, 123, 123);
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+footer small {
+  color: white;
+  font-size: 1.4rem;
+margin: 1.0rem;
+cursor: pointer;
+}
+footer small:hover {
+  text-decoration: underline;
 }
