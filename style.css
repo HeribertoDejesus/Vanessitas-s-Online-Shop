@@ -8,6 +8,10 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 header {
   display: flex;
@@ -59,7 +63,7 @@ main .main-title {
 main section .container-bild {
   display: flex;
   justify-content: center;
-  background-image: url('./teamwork.jpg');
+  background-image: url('./images/teamwork.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -96,29 +100,36 @@ main section .content__item {
   font-size: 3.0rem;
 }
 main  .ci1 {
-  background-image: url('./kette.jpg');
+  background-image: url('./images/kette.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   color: rgb(243, 138, 156);
   cursor: pointer;
+}
+main .content__item a {
+  padding: 60px;
+  text-decoration: none;
+  color:inherit
 }
 main .ci1:hover{
   background-color: rgb(223, 123, 123);
 }
-main  .ci2 {
-  background-image: url('./influencerin.png');
+/* main  .ci2 {
+  background-image: url('./images/influencerin.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   color: rgb(243, 138, 156);
-  cursor: pointer;
+  cursor: pointer; */
+}
+
 }
 main .ci2:hover{
   background-color: rgb(223, 123, 123);
 }
 main  .ci3 {
-  background-image: url('./model.png');
+  background-image: url('./images/model.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -129,7 +140,7 @@ main .ci3:hover{
   background-color: rgb(223, 123, 123);
 }
 main  .ci4 {
-  background-image: url('./gym.png');
+  background-image: url('./images/gym.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -159,4 +170,49 @@ footer small:hover {
   text-decoration: underline;
 }
 
-@media 
+/* Steine seite */
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+main .tx2 {
+  font-size: 2.2rem;
+  padding: 2.0rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2.0rem;
+}
+main .sec__item {
+  height: 100%;
+  background-color: rgb(223, 123, 123);
+  color: rgb(78, 76, 76);
+  border: 1px solid red;
+  margin-bottom: 7.0rem ;
+  border-radius: 8px;
+}
+main .sec__item {
+  display:inline-block;
+  margin: 1.0rem;
+  padding: 1.0rem;
+}
+main section figure {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.0rem;
+}
+main section img {
+  width:10.0rem;
+  height: 10.0rem;
+}
+main section h3 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 1.0rem;
+}
+main section p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+footer {
+  margin-top: 6.0rem;
+}
