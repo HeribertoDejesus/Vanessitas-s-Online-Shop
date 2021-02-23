@@ -1,3 +1,6 @@
+:root {
+  --primary-color: rgba(223, 123, 123,0.6);
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -34,7 +37,7 @@ header nav .main-container-menu {
   margin: 0 auto;
 }
 header nav .main-container-menu li {
-  margin-right: 1.6rem;
+  margin-right: 1.0rem;
   font-size: 1.8rem;
   list-style: none;
   color: rgb(255, 255, 255);
@@ -257,4 +260,84 @@ main section .social-media a:hover {
 }
 main section .social-media label {
   font-size: 1.2rem;
+}
+main .main-container-social h3 span {
+  color: var(--primary-color);
+}
+/* Kontakt */
+main {
+  width: 100%;
+}
+main .tx-form{
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 1.0rem;
+  margin-top: 3.0rem;
+}
+main form {
+  height: 100%;
+  width: 30.0rem;
+  border: 1px solid pink;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px pink;
+}
+main form .inp {
+  display: block;
+  margin: 0 auto;
+  padding: 1.8rem;
+  margin-bottom: 3.0rem;
+  border-radius: 8px;
+  margin-top: 2.0rem;
+  outline: none;
+  background-color: rgb(224, 57, 85,0.2);
+  border: none;
+}
+main form .senden {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2.0rem;
+  padding: 1.2rem 2.0rem;
+  font-size: 1.6rem;
+  background-color: rgb(0, 26, 255);
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid ;
+}
+main form .senden:hover {
+  background-color: pink;
+  font-size: 1.8rem;
+  border: 1px solid pink;
+  outline: none;
+}
+
+/* model  */
+
+main {
+  width: 100%;
+}
+main .main-section-text {
+  margin: 1.8rem;
+  padding: 1.0rem;
+}
+main .main-section-text h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+  margin-top: 2.0rem;
+}
+main .main-section-photos {
+  margin: 0 auto;
+  padding: 1.6rem;
+}
+main .main-section-photos figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .main-section-photos figure img {
+  width: 30.0rem;
+  height: 20.0rem;
+  background-color: var(--primary-color);
+  margin-bottom: 2.6rem;
 }
