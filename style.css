@@ -34,8 +34,8 @@ header nav .main-container-menu {
   margin: 0 auto;
 }
 header nav .main-container-menu li {
-  margin-right: 1.0rem;
-  font-size: 1.6rem;
+  margin-right: 1.6rem;
+  font-size: 1.8rem;
   list-style: none;
   color: rgb(255, 255, 255);
   cursor: pointer;
@@ -80,7 +80,7 @@ main .h2-text {
   justify-content: center;
   margin-top: 1.6rem;
   color:rgb(243, 138, 156);
-  font-size: 2.0rem;
+  font-size: 2.6rem;
   margin-bottom: 1.4rem;
 }
 main .main-section-2 {
@@ -184,7 +184,7 @@ main .tx2 {
 }
 main .sec__item {
   height: 100%;
-  background-color: rgb(223, 123, 123);
+  background-color: rgb(223, 123, 123,0.4);
   color: rgb(78, 76, 76);
   border: 1px solid red;
   margin-bottom: 7.0rem ;
@@ -195,12 +195,12 @@ main .sec__item {
   margin: 1.0rem;
   padding: 1.0rem;
 }
-main section figure {
+main section .stein__item {
   display: flex;
   justify-content: center;
   margin-bottom: 1.0rem;
 }
-main section img {
+main .sec__item img {
   width:10.0rem;
   height: 10.0rem;
 }
@@ -215,4 +215,46 @@ main section p {
 }
 footer {
   margin-top: 6.0rem;
+}
+/* Ubermich */
+main {
+  width: 100%;
+}
+main section .main-pic-3 {
+
+}
+main .main-pic-3 img {
+  width: 100%;
+}
+main section .tx2 {
+  font-size: 2.8rem;
+  margin-bottom: 3.0rem;
+}
+main section .tx2 span {
+  color: rgba(223, 123, 123,0.6);
+}
+main section .tx3 {
+  font-size: 2.8rem;
+}
+main .parr {
+  margin: 1.2rem;
+  padding: 1.0rem;
+}
+main section .main-section-insta {
+  display: flex;
+  justify-content: center;
+} 
+main section .social-media a {
+  margin-right: 1.4rem;
+  font-size: 1.8rem;
+}
+
+main section .social-media a:hover {
+  background-color: rgba(223, 123, 123,0.6);
+  padding: 1.0rem;
+  border-radius: 8px;
+  color: #fff;
+}
+main section .social-media label {
+  font-size: 1.2rem;
 }
