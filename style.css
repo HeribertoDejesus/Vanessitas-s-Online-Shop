@@ -179,7 +179,7 @@ main {
   margin: 0 auto;
 }
 main .tx2 {
-  font-size: 2.2rem;
+  font-size: 3.0rem;
   padding: 2.0rem;
   text-align: center;
   margin: 0 auto;
@@ -187,9 +187,10 @@ main .tx2 {
 }
 main .sec__item {
   height: 100%;
-  background-color: rgb(223, 123, 123,0.4);
+  background-color: rgba(248, 63, 63, 0.2);
   color: rgb(78, 76, 76);
-  border: 1px solid red;
+  border: 1px solid pink;
+  box-shadow: 0 0 10px pink;
   margin-bottom: 7.0rem ;
   border-radius: 8px;
 }
@@ -216,9 +217,23 @@ main section p {
   font-size: 1.8rem;
   text-align: center;
 }
+/* .main-pfeil {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.4rem;
+  position: relative;
+}
+div .pfeil {
+  width: 5.0rem;
+  height: 5.0rem;
+  border: 2px solid black;
+  position:; */
+}
 footer {
+  margin: 0 auto;
   margin-top: 6.0rem;
 }
+
 /* Ubermich */
 main {
   width: 100%;
@@ -336,8 +351,8 @@ main .main-section-photos figure {
   justify-content: center;
 }
 main .main-section-photos figure img {
-  width: 30.0rem;
-  height: 20.0rem;
+  width: 32.0rem;
+  /* height: 20.0rem; */
   background-color: var(--primary-color);
   margin-bottom: 2.6rem;
 }
