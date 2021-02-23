@@ -1,0 +1,532 @@
+/* @media screen and (min-width: 600px) { */
+
+
+/* Index  */
+
+  header .main-container-pic {
+    display: flex;
+    background-color: white;
+  }
+  header .main-container-pic img {
+    width: 9.0rem;
+    height: 9.0rem;
+    margin-left: 1.2rem;
+  }
+  header nav .main-container-menu li {
+    margin-right: 9.0rem;
+    margin-left: 2.0rem;
+    font-size: 2.2rem;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  
+  }
+  header nav .main-container-menu li:hover {
+    background-color: rgb(231, 54, 84);
+    padding: 0.7rem;
+    border-radius: 10px;
+  }
+  header .main-container-nav {
+    display: flex;
+    align-items: center;
+  }
+  main {
+    width: 100%;
+  }
+  main .main-title {
+    font-size: 2.6rem;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1.8rem;
+    width: 90%;
+  
+  }
+  main section .container-bild {
+    display: flex;
+    justify-content: center;
+    background-image: url('./images/teamwork.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30.0rem;
+  }
+  main section h1 {
+    color:rgb(243, 138, 156);
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+  
+  main .h2-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+    color:rgb(243, 138, 156);
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  main section .content__item {
+    width: 85%;
+    height: 30.0rem;
+    border: 2px solid rgb(243, 138, 156);
+    border-radius: 8px;
+    margin-bottom: 3.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.0rem;
+  }
+  main  .ci1 {
+    background-image: url('./images/kette.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(243, 138, 156);
+    cursor: pointer;
+  }
+  main .content__item a {
+    padding: 120px 195px;
+    text-decoration: none;
+    color:inherit
+  }
+  main .ci1:hover{
+    background-color: rgb(223, 123, 123);
+  }
+
+  }
+  main .ci2:hover{
+    background-color: rgb(223, 123, 123);
+  }
+  main  .ci3 {
+    background-image: url('./images/model.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(243, 138, 156);
+    cursor: pointer;
+  }
+  main .ci3:hover{
+    background-color: rgb(223, 123, 123);
+  }
+  main  .ci4 {
+    background-image: url('./images/gym.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(243, 138, 156);
+    cursor: pointer;
+  }
+  main .ci4:hover{
+    background-color: rgb(223, 123, 123);
+  }
+  
+  footer {
+    width: 100%;
+    height: 8.0rem;
+    background-color: rgb(223, 123, 123);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  footer small {
+    color: white;
+    font-size: 2.0rem;
+    margin: 1.0rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  footer small:hover {
+    text-decoration: underline;
+  }
+  
+  /* Steine seite */
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .tx2 {
+    font-size: 4.0rem;
+    padding: 2.0rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.0rem;
+  }
+  main .sec__item {
+    height: 100%;
+    background-color: rgba(248, 63, 63, 0.2);
+    color: rgb(78, 76, 76);
+    border: 1px solid pink;
+    box-shadow: 0 0 10px pink;
+    margin-bottom: 7.0rem ;
+    border-radius: 8px;
+  }
+  main .sec__item {
+    display:inline-block;
+    /* margin: 1.0rem; */
+    padding: 1.0rem;
+  }
+  main section .stein__item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.0rem;
+  }
+  main .sec__item img {
+    width:13.0rem;
+    height: 13.0rem;
+  }
+  main section h3 {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 1.0rem;
+  }
+  main section p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  footer {
+    margin: 0 auto;
+    margin-top: 6.0rem;
+  }
+
+
+  :root {
+    --primary-color: rgba(223, 123, 123,0.6);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* Index section */
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(223, 123, 123);
+  }
+  header .main-container-pic {
+    display: flex;
+    background-color: white;
+  }
+  header .main-container-pic img {
+    width: 6.0rem;
+    height: 6.0rem;
+    margin-left: 1.2rem;
+  }
+  header nav .main-container-menu {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  header nav .main-container-menu li {
+    margin-right: 1.0rem;
+    font-size: 1.8rem;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  
+  }
+  header nav .main-container-menu li:hover {
+    background-color: rgb(231, 54, 84);
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  header .main-container-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  main .main-title {
+    font-size: 1.6rem;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+    width: 90%;
+  
+  }
+  main section .container-bild {
+    display: flex;
+    justify-content: center;
+    background-image: url('./images/teamwork.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20.0rem;
+  }
+  main section h1 {
+    color:rgb(243, 138, 156);
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+  
+  main .h2-text {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    color:rgb(243, 138, 156);
+    font-size: 2.6rem;
+    margin-bottom: 1.4rem;
+  }
+  main .main-section-2 {
+    /* display: flex; */
+  }
+  
+  main section .content__item {
+    width: 90%;
+    margin: 0 auto;
+    height: 20.0rem;
+    border: 2px solid rgb(243, 138, 156);
+    border-radius: 8px;
+    margin-bottom: 3.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.0rem;
+  }
+  main  .ci1 {
+    background-image: url('./images/kette.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(243, 138, 156);
+    cursor: pointer;
+  }
+  main .content__item a {
+    padding: 60px;
+    text-decoration: none;
+    color:inherit
+  }
+  main .ci1:hover{
+    background-color: rgb(223, 123, 123);
+  }
+ 
+  main .ci2:hover{
+    background-color: rgb(223, 123, 123);
+  }
+  main  .ci3 {
+    background-image: url('./images/model.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(243, 138, 156);
+    cursor: pointer;
+  }
+  main .ci3:hover{
+    background-color: rgb(223, 123, 123);
+  }
+  main  .ci4 {
+    background-image: url('./images/gym.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(243, 138, 156);
+    cursor: pointer;
+  }
+  main .ci4:hover{
+    background-color: rgb(223, 123, 123);
+  }
+  
+  footer {
+    width: 100%;
+    height: 5.0rem;
+    background-color: rgb(223, 123, 123);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  footer small {
+    color: white;
+    font-size: 1.4rem;
+    margin: 1.0rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  footer small:hover {
+    text-decoration: underline;
+  }
+  
+  /* Steine seite */
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .tx2 {
+    font-size: 3.0rem;
+    padding: 2.0rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.0rem;
+  }
+  main .sec__item {
+    height: 100%;
+    background-color: rgba(248, 63, 63, 0.2);
+    color: rgb(78, 76, 76);
+    border: 1px solid pink;
+    box-shadow: 0 0 10px pink;
+    margin-bottom: 7.0rem ;
+    border-radius: 8px;
+  }
+  main .sec__item {
+    display:inline-block;
+    margin: 1.0rem;
+    padding: 1.0rem;
+  }
+  main section .stein__item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.0rem;
+  }
+  main .sec__item img {
+    width:10.0rem;
+    height: 10.0rem;
+  }
+  main section h3 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1.0rem;
+  }
+  main section p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  footer {
+    margin: 0 auto;
+    margin-top: 6.0rem;
+  }
+  
+  /* Ubermich */
+  main {
+    width: 100%;
+  }
+  main section .main-pic-3 {
+  
+  }
+  main .main-pic-3 img {
+    width: 100%;
+  }
+  main section .tx2 {
+    font-size: 2.8rem;
+    margin-bottom: 3.0rem;
+  }
+  main section .tx2 span {
+    color: rgba(223, 123, 123,0.6);
+  }
+  main section .tx3 {
+    font-size: 2.8rem;
+  }
+  main .parr {
+    margin: 1.2rem;
+    padding: 1.0rem;
+  }
+  main section .main-section-insta {
+    display: flex;
+    justify-content: center;
+  } 
+  main section .social-media a {
+    margin-right: 1.4rem;
+    font-size: 1.8rem;
+  }
+  
+  main section .social-media a:hover {
+    background-color: rgba(223, 123, 123,0.6);
+    padding: 1.0rem;
+    border-radius: 8px;
+    color: #fff;
+  }
+  main section .social-media label {
+    font-size: 1.2rem;
+  }
+  main .main-container-social h3 span {
+    color: var(--primary-color);
+  }
+  /* Kontakt */
+  main {
+    width: 100%;
+  }
+  main .tx-form{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 1.0rem;
+    margin-top: 3.0rem;
+  }
+  main form {
+    height: 100%;
+    width: 30.0rem;
+    border: 1px solid pink;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px pink;
+  }
+  main form .inp {
+    display: block;
+    margin: 0 auto;
+    padding: 1.8rem;
+    margin-bottom: 3.0rem;
+    border-radius: 8px;
+    margin-top: 2.0rem;
+    outline: none;
+    background-color: rgb(224, 57, 85,0.2);
+    border: none;
+  }
+  main form .senden {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2.0rem;
+    padding: 1.2rem 2.0rem;
+    font-size: 1.6rem;
+    background-color: rgb(0, 26, 255);
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid ;
+  }
+  main form .senden:hover {
+    background-color: pink;
+    font-size: 1.8rem;
+    border: 1px solid pink;
+    outline: none;
+  }
+  
+  /* model  */
+  
+  main {
+    width: 100%;
+  }
+  main .main-section-text {
+    margin: 1.8rem;
+    padding: 1.0rem;
+  }
+  main .main-section-text h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    margin-top: 2.0rem;
+  }
+  main .main-section-photos {
+    margin: 0 auto;
+    padding: 1.6rem;
+  }
+  main .main-section-photos figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .main-section-photos figure img {
+    width: 32.0rem;
+    /* height: 20.0rem; */
+    background-color: var(--primary-color);
+    margin-bottom: 2.6rem;
+  }

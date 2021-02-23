@@ -9,13 +9,15 @@
 
 html {
   font-size: 62.5%;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
-
+/* Index section */
 header {
   display: flex;
   width: 100%;
@@ -81,6 +83,7 @@ main section h1 {
 main .h2-text {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   margin-top: 1.6rem;
   color:rgb(243, 138, 156);
   font-size: 2.6rem;
@@ -161,6 +164,7 @@ footer {
   display: flex;
   justify-content:space-around;
   align-items: center;
+  margin: 0 auto;
 }
 footer small {
   color: white;
